@@ -1,0 +1,37 @@
+/* global styles  */
+body {
+    font-family: "Helvetica Neue", "Sans-serif";
+}
+/* element styles */
+h1 {
+    text-align: center;
+}
+button {
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 150px;
+    border-radius: 8px;
+    color: white;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    border: 5px solid cornflowerblue;
+}
+
+/* layout */
+.btn-container {
+    /* turn button container into a flexbox container */
+    display: flex;
+    justify-content: space-evenly;
+}
+.pet-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* headings */
+
+/* buttons */
+
+/* images */
